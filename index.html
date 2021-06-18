@@ -6,20 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
     <header>
-        <img src="img/small-logo.png">
-        <h1>delicious</h1>
-        <p>THE BEST FOOD BLOG ON THE WEB</p>
-        <nav>
+        <div class="logo">
+            <img src="img/logo.png">
+            <p><span>Delicious</span><br> THE BEST FOOD BLOG ON THE WEB</p>
+        </div>
+        <nav class="nav">
             <img src="img/fb-icon.png" alt="">
             <img src="img/twit-icon.png" alt="">
-            <img src="img/gp-icong g.png" alt="">
+            <img src="img/gp-icon.png" alt="">
             <img src="img/insta-icon.png" alt="">
-            <img src="img/flic-icon2.png" alt="">
+            <img src="img/flic-icon.png" alt="">
             <img src="img/pint-icon.png" alt="">
             <img src="img/rss-icon.png" alt="">
             <img src="img/mail-icon.png" alt="">
@@ -27,17 +32,17 @@
 
     </header>
     <main>
-        <section>
-            <p>Chocolate pizza</p>
-            <p>POSTED ON 15 DEC 2013 /DESSERTS</p>
+        <section class="main-1">
+            <p><span > Chocolate pizza</span><br> POSTED ON 15 DEC 2013 /DESSERTS</p>
         </section>
-        <section>
-            <img src="img/print-icon.png"> print
+        <section class="main-2">
+            <img src="img/print-icon.png">
+            <p>print</p>
         </section>
         <section>
             <img src="img/choco-pizza.png" alt="">
         </section>
-        <section>
+        <section class="main-3">
             <P>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve.
                 Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat,
                 stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside
@@ -50,62 +55,65 @@
                 the nuts, Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass
                 tupperware. Freeze for at least two hours before serving.</P>
         </section>
-        <section>
-
-        </section>
-        <section>
+        <section class="form">
             <img src="img/list-bg.png" alt="">
-        </section>
-        <section>
-            <fieldset>
-                <form action="pizaa">
+            <form class="input">
+                <div class="table-1">
                     <label for="1 1/2 cups milk"> 1 1/2 cups milk</label>
-                    <label for="1 1/2 cups milk"></label>
                     <input type="checkbox" name="1 1/2 cups milk" id="1 1/2 cups milk">
                     <label for="1 1/2 heavy cream"> 1 1/2 heavy cream</label>
-                    <input type="checkbox" name="1 1/2 heavy cream" id="1 1/2 heavy cream"> <br>
+                    <input type="checkbox" name="1 1/2 heavy cream" id="1 1/2 heavy cream"> 
                     <label for="1/2  cup mascarpone"> 1/2 mascarpone</label>
                     <input type="checkbox" name="1/2 cup mascarpone" id="1/2 cup mascarpone">
                     <label for="1/3 granulated sugar"> 1/3 granulated sugar</label>
-                    <input type="checkbox" name="1/3 granulated sugar" id="1/3 granulated sugar"> <br>
+                    <input type="checkbox" name="1/3 granulated sugar" id="1/3 granulated sugar"> 
                     <label for="1/2 tsp pink salt"> 1/2 tsp pink saltr</label>
                     <input type="checkbox" name="1/2 tsp pink salt" id="1/2 tsp pink salt">
                     <label for="2 egg yolk">2 egg yolk</label>
-                    <input type="checkbox" name="2 egg yolk" id="2 egg yolk"> <br>
+                    <input type="checkbox" name="2 egg yolk" id="2 egg yolk"> 
+                </div>
+                
+                <div class="table-2">
                     <label for="1 lb black mission figs">1 lb black mission figs</label>
-                    <input type="checkbox" name="1 lb black mission figs" id="1 lb black mission figs">
-                    <label for="1 lemon, juiced">1 lemon, juiced</label>
-                    <input type="checkbox" name="1 lemon, juiced" id="1 lemon, juiced"> <br>
-                    <label for="1/2 cup brown sugar">1/2 cup brown sugar</label>
-                    <input type="checkbox" name="1/2 cup brown sugar" id="1/2 cup brown sugar">
-                    <label for="2 tbsp butter">2 tbsp butter</label>
-                    <input type="checkbox" name="2 tbsp butter" id="2 tbsp butter"> <br>
-                    <label for="2-4 tbsp water">2-4 tbsp water</label>
-                    <input type="checkbox" name="2-4 tbsp water" id="2-4 tbsp water">
-                    <label for="1 cup honay roasted pecans , roughly chopped">1 cup honay roasted pecans , roughly
-                        chopped</label>
-                    <input type="checkbox" name="1 cup honay roasted pecans , roughly chopped"
-                        id="1 cup honay roasted pecans , roughly chopped">
+                <input type="checkbox" name="1 lb black mission figs" id="1 lb black mission figs">
+                <label for="1 lemon, juiced">1 lemon, juiced</label>
+                <input type="checkbox" name="1 lemon, juiced" id="1 lemon, juiced"> 
+                <label for="1/2 cup brown sugar">1/2 cup brown sugar</label>
+                <input type="checkbox" name="1/2 cup brown sugar" id="1/2 cup brown sugar">
+                <label for="2 tbsp butter">2 tbsp butter</label>
+                <input type="checkbox" name="2 tbsp butter" id="2 tbsp butter"> 
+                <label for="2-4 tbsp water">2-4 tbsp water</label>
+                <input type="checkbox" name="2-4 tbsp water" id="2-4 tbsp water">
+                <label for="1 cup honay roasted pecans , roughly chopped">1 cup honay roasted pecans , roughly
+                    chopped</label>
+                <input type="checkbox" name="1 cup honay roasted pecans , roughly chopped"
+                    id="1 cup honay roasted pecans , roughly chopped">
+                </div>
+                
 
 
 
 
 
-                </form>
-            </fieldset>
+            </form>
+
         </section>
-        <section>
+        <section class="venesa">
             <img src="img/van-pic.png" alt="">
-            <p>VENESSA Stevenson </p>
-            <p>food enthusiast , photography fan. add a pinch of row foodism and that's pretty much who Iam . </p>
-            <button>SHARE RECIEPE</button>
+            <p> <span> VENESSA Stevenson <br>
+            food enthusiast , photography fan. add a pinch of row foodism and that's 
+             pretty much who Iam .</span> </p>
+            <div class="button">
+            <button>SHARE RECIEPE</button></div>
         </section>
 
     </main>
     <footer>
-        <img src="img/logo.png" alt="">
-        <p>delicious &copy; All Right Reserved </p>
-        <p>proudly published with Ghost</p>
+        <div class="footer">
+        <img src="img/small-logo.png" alt=""></div>
+       
+       <div class="footer1"> <p> <span> delicious &copy; All Right Reserved <br>
+        proudly published with Ghost</p></span></div>
     </footer>
 </body>
 
