@@ -1,0 +1,33 @@
+header img{
+    float:left;
+}
+
+header h1{
+    font-family: 'Englebert', sans-serif;
+
+    font-style:oblique;
+    font-size: 10mm;
+    margin: 1mm;
+
+}
+
+
+header P{
+  font-style: normal;
+  font-size: 2mm;
+}
+header nav {
+    float:right;
+   
+  
+}
+section :nth-child(1) p :nth-child(1) {
+text-align: center;
+color:black ;
+}
+main
+}
+section:nth-child(3) img {
+    float: right;
+
+}
