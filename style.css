@@ -9,9 +9,17 @@ header {
 .logo {
     display: flex;
     width: 50%;
-    color:black;
+    color: darkgray;
+    font-size: xx-small;
+    
 }
 
+.logo p::first-line {
+    color: black;
+    font-size: xx-large;
+    font-weight: bolder;
+font-family: 'Pacifico', cursive;
+}
 
 .nav {
     display: flex;
@@ -20,11 +28,33 @@ header {
     width:50%;
 
 }
+
+
+.hr{
+  padding: 10px;
+  background-image: url("img/hr-img.png");
+    background-repeat:repeat-x;
+   display: flex;
+   margin: 10px;
+   width: 850px;
+   
+          
+ }      
+      
+
 .main-1 {
     display: flex;
     width: 50%;
-    color: darkgrey;
+    color:  darkgrey;
+    font-size: x-small;
+   
 }
+   .main-1 p::first-line {
+    color: black;
+    font-family:  'Oswald', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+  }
 .main-2 {
     display: flex;
     justify-content: flex-end;
@@ -57,13 +87,25 @@ header {
 .table-1 {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
 }
 .table-2 {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
 }
+.hr1{
+    padding: 10px;
+    background-image: url("img/hr-img.png");
+      background-repeat:repeat-x;
+     display: flex;
+     margin: 10px;
+     width: 850px;
+     
+            
+   }     
+
+
 .venesa {
     display: flex;
     justify-content: flex-end;
