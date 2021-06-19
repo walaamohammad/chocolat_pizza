@@ -32,11 +32,12 @@ font-family: 'Pacifico', cursive;
 
 .hr{
   padding: 10px;
-  background-image: url("img/hr-img.png");
-    background-repeat:repeat-x;
+  height: 1px;
+  background-image:  url("img/hr-img.png");
    display: flex;
    margin: 10px;
    width: 850px;
+   
    
           
  }      
@@ -51,9 +52,9 @@ font-family: 'Pacifico', cursive;
 }
    .main-1 p::first-line {
     color: black;
-    font-family:  'Oswald', sans-serif;
+ font-family: fantasy;
     font-size: xx-large;
-    font-weight: bolder;
+    
   }
 .main-2 {
     display: flex;
@@ -96,11 +97,11 @@ font-family: 'Pacifico', cursive;
 }
 .hr1{
     padding: 10px;
+    height: 1px;
     background-image: url("img/hr-img.png");
-      background-repeat:repeat-x;
      display: flex;
      margin: 10px;
-     width: 850px;
+    
      
             
    }     
